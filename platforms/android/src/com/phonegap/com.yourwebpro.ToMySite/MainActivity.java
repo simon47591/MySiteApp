@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.phonegap.hello_world;
+package com.yourwebpro.ToMySite;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
