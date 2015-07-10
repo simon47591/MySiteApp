@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>YourWebPro 2-My-Site</title>
+    </head>
+    <body>
+        <div class="app">
+        
+        
+<!-- =========================================
+        Start of home page: #home
+     ========================================= -->
+<div data-role="page" class="page" id="home">
+    <!-- Header -->
+	<div class="header" data-role="header">
+		<img src="img/logo.png" width="203" height="129" alt=""/>
+	</div>
+	<!-- Description -->
+    <div class="description">
+    	Powered by YourWebPro
+    </div>
+    <!-- Content -->
+	<div class="content" >	
+        <a href="#submitPhotos" class="navlink" id="btn-photos">Submit Photo(s)<span></span></a>
+        <a href="#submitVideos" class="navlink" id="btn-videos">Submit Video(s)<span></span></a>
+        <a href="#submitTestimonials" class="navlink" id="btn-testimonials">Submit Testimonial(s)<span></span></a>
+        <a href="#settings" class="navlink" id="btn-settings">Profile Settings<span></span></a>
+	</div>
+	<!-- Footer -->
+	<div class="footer">
+		Copyright &copy; 2015 WebProPartners, Inc. All rights reserved.
+	</div>
+    
+</div>
+<!-- /page home -->
+
+
+
+<!-- =========================================
+        Start of submitPhotos page: #submitPhotos
+     ========================================= -->
+<div data-role="page" id="submitPhotos" class="page">
+
+    <!-- Header -->
+	<div class="header" data-role="header">
+		<img src="img/logo.png" width="203" height="129" alt=""/>
+	</div>
+	<!-- Description -->
+    <div class="description">
+    <a href="#home" class="btn-back"></a>
+    	Powered by YourWebPro
+    </div>
+    <!-- Content -->
+	<div class="content" >	
+        <a href="#aa" class="navlink" id="btn-take-photos">Take a photo<span></span></a>
+        <a href="#aa" class="navlink" id="btn-from-gallery">From Gallery<span></span></a>
+        <a href="#aa" class="navlink" id="btn-before-and-after">Before & After<span></span></a>
+    <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+    <img style="display:none;" id="largeImage" src="" />
+	</div>
+	<!-- Footer -->
+	<div class="footer">
+		Copyright &copy; 2015 WebProPartners, Inc. All rights reserved.
+	</div>
+    
+</div>
+<!-- /page submitPhotos -->
+
+
+
+<!-- =========================================
+        Start of submitVideos page: #submitVideos
+     ========================================= -->
+<div data-role="page" id="submitVideos" class="page">
+
+    <!-- Header -->
+	<div class="header" data-role="header">
+		<img src="img/logo.png" width="203" height="129" alt=""/>
+	</div>
+	<!-- Description -->
+    <div class="description">
+    <a href="#home" class="btn-back"></a>
+    	Powered by YourWebPro
+    </div>
+    <!-- Content -->
+	<div class="content" >	
+        <a href="#aa" class="navlink" id="btn-take-video">Take a Video<span></span></a>
+        <a href="#aa" class="navlink" id="btn-video-from-gallery">From Gallery<span></span></a>
+	</div>
+	<!-- Footer -->
+	<div class="footer">
+		Copyright &copy; 2015 WebProPartners, Inc. All rights reserved.
+	</div>
+    
+</div>
+<!-- /page submitVideos -->
+
+
+
+<!-- =========================================
+        Start of submitTestimonials page: #submitTestimonials
+     ========================================= -->
+<div data-role="page" id="submitTestimonials" class="page">
+
+    <!-- Header -->
+	<div class="header" data-role="header">
+		<img src="img/logo.png" width="203" height="129" alt=""/>
+	</div>
+	<!-- Description -->
+    <div class="description">
+    <a href="#home" class="btn-back"></a>
+    	Powered by YourWebPro
+    </div>
+    <!-- Content -->
+	<div class="content" >	
+       <div class="pageTitle">Submit Testimonial</div>
+          <form>
+              Enter testimonial below
+              <textarea placeholder="Enter Testimonial Here" id="form-testimonial-testimonial"></textarea>
+              <input type="text" placeholder="Client Name" id="form-testimonial-clientname">
+              <input type="text" placeholder="Date" id="form-testimonial-date">
+              <div class="btn-submit" id="sendTestimonial">Send</div>
+          </form>
+        <div class="content-description">Note: "Client Name" & "Date" are not required, only recommended.</div>
+	</div>
+	<!-- Footer -->
+	<div class="footer">
+		Copyright &copy; 2015 WebProPartners, Inc. All rights reserved.
+	</div>
+    
+</div>
+<!-- /page submitTestimonials -->
+
+
+
+<!-- =========================================
+        Start of settings page: #settings
+     ========================================= -->
+<div data-role="page" id="settings" class="page">
+
+    <!-- Header -->
+	<div class="header" data-role="header">
+		<img src="img/logo.png" width="203" height="129" alt=""/>
+	</div>
+	<!-- Description -->
+    <div class="description">
+    <a href="#home" class="btn-back"></a>
+    	Powered by YourWebPro
+    </div>
+    <!-- Content -->
+	<div class="content">	
+    <div class="pageTitle">Settings</div>
+          <form>
+              Enter your information below
+              <input type="text" placeholder="Full Name" id="form-settings-fullname">
+              <input type="text" placeholder="Business Name" id="form-settings-businessname">
+              <input type="text" placeholder="eMail" id="form-settings-email">
+              <input type="text" placeholder="Domain Name" id="form-settings-domainname">
+              <div class="btn-submit" id="settingsSave">Save</div>
+          </form>
+	</div>
+	<!-- Footer -->
+	<div class="footer">
+		Copyright &copy; 2015 WebProPartners, Inc. All rights reserved.
+	</div>
+    
+</div>
+<!-- /page settings -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start of third page: #settingsEmpty -->
+<div data-role="popup" id="settingsEmpty" data-overlay-theme="b" data-theme="b">
+
+	<div data-role="header" data-theme="b" style="text-align:center;">
+		<h1>Settings</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" class="content" data-theme="d">	
+          <form>
+              Enter your information below and click 'Save'
+              <input type="text" placeholder="Full Name" id="popup-settings-fullname">
+              <input type="text" placeholder="Business Name" id="popup-settings-businessname">
+              <input type="text" placeholder="eMail" id="popup-settings-email">
+              <input type="text" placeholder="Domain Name" id="popup-settings-domainname">
+              <div class="btn-submit" id="settingsEmptySave">Save</div>
+          </form>	
+	</div><!-- /content -->
+	
+	<div data-role="footer" class="popupFooter">
+    <div class="emailError">Error: Please enter a valid email address</div>
+	</div><!-- /footer -->
+</div><!-- /popup settingsEmpty -->
+            
+    
+    
+
+        </div>
+        
+        
+  <div id="myimage"></div>
+  <div id="api"></div>      
+        
+
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/camera.js"></script>
+    </body>
+</html>

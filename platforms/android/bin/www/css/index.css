@@ -1,0 +1,105 @@
+body, html { height:100%;background:#222222; }
+.page, .app { background:#222222; }
+
+/* Main Sections */
+.header { text-align:center;padding:8px; }
+.description { position:relative; }
+.description, .footer  { text-align:center;color:#fff;text-shadow:none;min-height:0px;padding:15px 0;background-color: #003874;background-image: linear-gradient(#003874, #207CDC);width:100%; }
+.footer { position:absolute;width:100%;bottom:0px;display:block;margin:0; }
+.popupFooter { position:absolute;bottom:0px;margin:0;text-align:center;color:#fff;text-shadow:none;min-height:0px;padding:15px 0;width:100%; }
+.content { text-align:center;background:#222222;padding:10px 5px 5px 5px;box-sizing:border-box;height:100%;margin-bottom:50px; }
+.pageTitle { color:#fff;font-size:24px;text-align:left;text-shadow:none;margin:8px 10px 15px 10px;padding:0 8px 12px 8px;border-bottom:#eee 1px dotted; }
+.content .content-description { color:#fff;font-size:14px;text-shadow:none;margin-top:40px; }
+#settingsEmpty { width:95%; }
+
+/* Navigation */
+.navlink { width:98%;max-width:450px;display:inline-block;padding:35px 0px 35px 115px;margin:10px 8px 10px 6px;text-align:left;border-radius:8px;box-sizing:border-box;text-shadow:none;text-decoration:none;color:#fff;font-size:25px;border:#3E92E6 2px outset; }
+.navlink { background:#1667BC;background-repeat:no-repeat;position:relative; }
+.navlink:hover { color:#fff; }
+#btn-photos, #btn-take-photos { background-size:79px;background-image:url('../img/btn-icons.png');background-position:18px 16px; }
+#btn-videos, #btn-take-video { background-size:79px;background-image:url('../img/btn-icons.png');background-position:18px -88px; }
+#btn-testimonials { background-size:79px;background-image:url('../img/btn-icons.png');background-position:18px -315px; }
+#btn-settings { background-size:79px;background-image:url('../img/btn-icons.png');background-position:18px -200px; }
+#btn-from-gallery, #btn-video-from-gallery { background-size:79px;background-image:url('../img/btn-icons.png');background-position:18px -420px; }
+#btn-before-and-after { background-size:79px;background-image:url('../img/btn-icons.png');background-position:18px -526px; }
+.navlink span { width:30px;height:51px;position:absolute;background-image:url('../img/caret.png');background-repeat:no-repeat;right:18px;top:24px; }
+
+
+
+
+/* Buttons */
+.btn-back { position:absolute;left:5px;top:6px;width:60px;height:40px;background-image:url('../img/caret.png');background-repeat:no-repeat;background-size:20px;transform:rotate(180deg);background-position:25px 3px; }
+
+
+
+
+
+/* Form(s) */
+input { width:100%;box-sizing:border-box;padding:15px;border-radius:5px;margin:4px 0;border:#bbb 1px solid; }
+textarea { padding:15px;border:#bbb 1px solid;min-height:170px; }
+form { padding:0 12px;margin-top:10px;text-shadow:none;color:#fff; }
+.btn-submit { width:100%;padding:12px;color:#fff;background:#1667BC;border-radius:6px;border:#3E92E6 2px outset;box-sizing:border-box;font-size:22px;margin:15px 0;transition:all ease-in-out 180ms; }
+.btn-submit:hover { background:#003874; }
+
+
+
+
+
+/* Errors */
+.emailError { display:none; }
+
+
+
+
+
+
+
+
+/* Links */
+.ui-page-theme-a a,
+html .ui-bar-a a,
+html .ui-body-a a,
+html body .ui-group-theme-a a {
+	color: #C1DCF7 /*{a-link-color}*/;
+	font-weight: bold;
+}
+.ui-page-theme-a a:visited,
+html .ui-bar-a a:visited,
+html .ui-body-a a:visited,
+html body .ui-group-theme-a a:visited {
+    color: #C1DCF7 /*{a-link-visited}*/;
+}
+.ui-page-theme-a a:hover,
+html .ui-bar-a a:hover,
+html .ui-body-a a:hover,
+html body .ui-group-theme-a a:hover {
+	color: #bbb /*{a-link-hover}*/;
+}
+.ui-page-theme-a a:active,
+html .ui-bar-a a:active,
+html .ui-body-a a:active,
+html body .ui-group-theme-a a:active {
+	color: #bbb /*{a-link-active}*/;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+/* Navigation */
+.navlink { width:96%;font-size:16px;padding:20px 0px 20px 75px;margin:6px 8px 6px 6px; }
+.navlink { background:#1667BC;background-repeat:no-repeat;position:relative; }
+.navlink:hover { color:#fff; }
+#btn-photos { background-size:40px;background-position:18px 16px; }
+#btn-videos { background-size:40px;background-position:18px -39px; }
+#btn-testimonials { background-size:40px;background-position:18px -157px; }
+#btn-settings { background-size:40px;background-position:18px -98px; }
+.navlink span { width:15px;height:34px;background-size:15px;right:11px;top:19px; }
+.footer { font-size:11px; }
+}
